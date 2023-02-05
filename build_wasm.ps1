@@ -1,0 +1,1 @@
+cargo build --target wasm32-unknown-unknown --release; cp target/wasm32-unknown-unknown/release/game_two.wasm html/game_two.wasm; echo DONE!
